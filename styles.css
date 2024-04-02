@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     width: 300px;
     border: 1px lightgray solid;
-    padding: 0px 12px 0px 12px;
+    padding: 0px 12px 12px 12px;
 }
 
 h3 {
@@ -22,6 +22,7 @@ img {
 
 .content {
     display: flex;
+    flex-wrap: wrap;
     font-size: 18px;
     border: 1px lightgray solid;
     width: 300px;
@@ -29,8 +30,10 @@ img {
 }
 
 .abstract {
+    display: flex;
+    width: 100%;
     font-style: italic;
-    padding: 0 0 0 0;
+    padding: 0 0 12px 0;
     margin: 0 0 0 0;
 }
 
@@ -39,7 +42,7 @@ ul {
     flex-wrap: wrap;
     height: fit-content;
     margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    padding: 0 0 12px 0;
 }
 
 ul ol {
@@ -47,8 +50,7 @@ ul ol {
     padding: 0 0 0 0;
 }
 
-ul ol em {
-    display: flex;
+em {
     font-weight: bold;
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
@@ -57,6 +59,7 @@ ul ol em {
 .description {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
